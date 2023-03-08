@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-wzjq
     spec:
       containers:
-      - image: quay.io/psturc/test-images-protected:Tq9mw-devfile-sample-wzjq
+      - image: quay.io/psturc/test-images-protected@sha256:0e27606224d4adbf08396c91da5b4764218fc157017e6c024f536bc463a817e1
         name: my-nodejs
         ports:
         - containerPort: 3001
